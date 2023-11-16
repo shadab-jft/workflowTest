@@ -10,3 +10,5 @@ jobs:
         with: 
           node-version: '14'
       - run: node index.js
+      - name: aws configuration
+        run: aws configure list
